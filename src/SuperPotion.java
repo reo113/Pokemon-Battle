@@ -13,7 +13,7 @@ public class SuperPotion implements Item {
      * 
      */
     public void itemDescription() {
-        System.out.println("Potion:\nHeals your Pokemon by 60 hp\n");
+        System.out.println("Potion:\nHeals your Pokemon by 60 hp\n"+ capacity + "/5");
     }
 
     /**

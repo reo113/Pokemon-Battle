@@ -13,7 +13,7 @@ public class Potion implements Item {
      * 
      */
     public void itemDescription() {
-        System.out.println("Potion:\nHeals your Pokemon by 20 hp\n");
+        System.out.println("Potion:\nHeals your Pokemon by 20 hp\n" + capacity + "/5");
     }
 
     /**
