@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/*
+ * This an class that represents the main class that runs and initiates the program.
+ * 
+ */
+ 
 public class PokemonRunner {
 
     public static void main(String[] args) throws Exception {
@@ -13,7 +18,9 @@ public class PokemonRunner {
         Player player = new HumanPlayer(pokemon, potion);
         Player player2 = new ComputerPlayer(pokemon2, superPotion);
 
-        
+        /*
+         * displays a menu that gives the users option
+         */
         System.out.println("------------POKEMON LAB HAS BEGAN!!!------------");
         System.out.println("1) Choose to Battle        2)Check Pokemon");
         System.out.println("3) Speak to Pokemon        4)Check Item");
